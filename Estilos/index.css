@@ -1,0 +1,25 @@
+p{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#intro {
+    color: aqua;
+    font-size: 20px;
+}
+#logo{
+    width: 150px;
+    border-radius: 10px;
+}
+.letra{
+    color: red;
+    font-weight: bold;
+}
+a{
+    color: blueviolet;
+    text-decoration: none;
+}

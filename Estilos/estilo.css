@@ -1,0 +1,56 @@
+#caption{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(12, 27, 230);
+    font-size: 60px;
+    font-weight: bold;
+}
+.contenido{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(35, 214, 214);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.tema{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(21, 24, 24);
+    font-size: 16px;
+    font-weight: bold;
+}
+#fuente{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tamaño{
+    font-size: 36px;
+}
+#grosor{
+    font-weight: 700;
+}
+#Estilo{
+    font-style: italic;
+}
+#espacio{
+    letter-spacing: 2px;
+}
+#altura{
+    line-height: 1.5;
+}
+#tranformacion{
+    text-transform: uppercase;
+}
+#decoracion{
+    text-decoration: none;
+}
+#color{
+    color: #ff0909;
+}
+#sombra{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+#Alineación{
+    text-align: right;
+}
+#te{
+    text-transform: lowercase;
+}
+
