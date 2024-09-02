@@ -1,0 +1,66 @@
+/*Estilos para el menu de navegacion navbar*/
+
+.navbar{
+    display: flex;  /*Se utiliza el flex para distribuir el contenido horizontal*/
+    justify-content: space-between; /*Espacio entre los elementos justify-content*/
+    align-items: center; /*Alinea los elementos verticalmente aling-items*/
+    background-color: rgb(0, 0, 0); /*Color de fondo principal */
+    padding: 10px; /*Espacio entre los elementos padding*/
+}
+
+.navbar a img{
+    width: 100px; /*Tamaño de la imagen*/
+    height: 100px; /*Tamaño de la imagen*/
+    border-radius: 50%; /*Forma circular de la imagen*/
+}
+
+/*Etiqueta logo*/
+.logo a{
+    color: rgb(74, 219, 230); /*Color de texto que dice logo*/
+    text-decoration: none; /*Elimina el subrayado del texto*/
+    font-size: 24px; /*Tamaño de la fuente*/
+}
+.nav-links{
+    list-style: none; /*Elimina los puntos de la lista*/
+    display: flex; /*Se utiliza para distribuir elementos*/
+    gap: 15px; /*Espacio entre cada enlace */
+}
+.nav-links li a{
+    color: antiquewhite; /*Color texto*/
+    text-decoration: none; /*Elimina subrayado*/
+    padding: 8px 15px;
+}
+.dropdown{
+    position: relative; /*Posiciona el contenedor de dropdown*/
+}
+
+.dropdown-content a{
+    padding: 12px 16px; /*Espacio interno al rededor de los enlaces*/
+    text-decoration: none; /*Elimina el subrayado*/
+    display: block; /*Enlaces ocupen el espacio del contenido*/
+}
+
+.dropdown-content{
+    display: none; /*Oculta el contenido del dropdown por defecto*/
+    position: absolute; /* Posiciona el contenido del dropdown de forma absoluta respecto a su contenedor*/
+    background-color: aqua; /**/
+    min-width: 120px; /**/
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2); /**/
+}
+
+/*Muestra el contenido del dropdwon al pasar el contenido sobre el cursor*/
+.dropdown:hover .dropdown-content{
+    display: block; /*Muestra el contenido cuando el cursor entra sobre el elemento*/
+}
+
+/*Estilo para los enlaces de navegación al pasar el cursor sobre ellos*/
+.nav-links li a:hover{
+    background-color: red; /*Color de fondo del enlace al pasar el cursor sobre el*/
+    border-radius: 4px; /*Bordes redondeadis para el fondo del enlace*/
+}
+
+
+.search-bar button:hover{
+    background-color: red;
+    border-radius: 24px;
+}
