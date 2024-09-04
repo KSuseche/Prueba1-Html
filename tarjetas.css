@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(182, 244, 213); /*Aplica color de fondo*/
+    margin: 0;  /*Elimina el margen que tiene predeterminado */
+    padding: 0; /*Elimina los espacios que bienen por defecto */
+}
+
+.container{
+    display: flex; /*Permite organizar los hijos forma flexible*/
+    flex-direction: column; /*Alinea los elemtos en columna*/
+    align-items: center; /*Centra los atributos*/
+    gap: 20px; /*Espacio entre articulos*/
+}
+section article{
+    transition: box-shadow 0.3s ease; /*Aplica una transicion suabe de 0.3 segundos*/
+    background-color: #fff; /*Establece color blanco*/
+    margin: 16px 0; /*Agrega margen vertical*/
+    border-radius: 8px; /*Redondea las esquinas del articulo*/
+    padding: 4px 0; /*Espacios*/
+    cursor: pointer; /*Cambia el estilo del cursor*/
+}
+/*EL hover es un estilo que se aplica cuando el usuario pasa el cursor por el elemento */
+section article:hover{
+    box-shadow: 0 1.6px 6.4px rgb(26, 27, 26, 0.3); /*Aplica estilo sombrio al elemento*/
+}
+section article h2, section article p{
+    margin: 16px;
+}
+footer{
+    background-color: #222;
+    padding: 48px;
+    color: #fff;
+}
+footer section{
+    float: right;
+    margin-right: 0;
+}
+ footer a{
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+footer p{
+    margin: 0;
+}
+footer a:hover{
+    color: tomato;
+}
+header{
+    background-color: #222;
+    padding: 1px;
+}
+header h1{
+    color: #fff;
+}
