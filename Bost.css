@@ -1,0 +1,22 @@
+body{
+    background-color: antiquewhite;
+}
+.btn-outline-success{
+    background-color: rgb(161, 216, 225);
+}
+.form-control{
+    background-color: rgb(206, 187, 224);
+}
+#navbarSupportedContent{
+    background-color: rgb(123, 98, 98);
+}
+.navbar-brand{
+    color: yellow;
+    background-color: black;
+}
+.nav-link{
+    color: yellow;
+}
+.nav-link active{
+    color: white;
+}
